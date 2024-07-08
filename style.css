@@ -478,6 +478,7 @@ body {
 }
 
 /* media queries of footer section */
+
 @media only screen and (max-width:590px){
 .footer{
     padding: 0rem;
@@ -531,11 +532,16 @@ flex-wrap: nowrap;
 
 }
 
-.footerending .box1,.box2{
+.footerending .box1 {
+    padding:  0 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.footerending .box2{
     padding: 0 1rem;
     display: flex;
     gap: 2rem;
-
 }
 
 .footerending .box a,span{
